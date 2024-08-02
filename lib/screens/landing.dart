@@ -22,6 +22,7 @@ class LandingScreen extends StatelessWidget {
                     color: Colors.black,
                     size: 30,
                   ),
+                  //
                   Text(
                     "Settings",
                     style: TextStyle(
