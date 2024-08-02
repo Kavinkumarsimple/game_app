@@ -16,22 +16,31 @@ class LandingScreen extends StatelessWidget {
             color: Colors.amber,
             child: Container(
               child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
+                  Row(
+                    children: [
+                      Icon(
+                        Icons.settings,
+                        color: Colors.black,
+                        size: 30,
+                      ),
+                      Text(
+                        "Settings",
+                        style: TextStyle(
+                          color: Colors.black,
+                          fontSize: 20,
+                          fontFamily: 'Oswald-Bold',
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
                   Icon(
-                    Icons.settings,
+                    Icons.arrow_forward_ios,
                     color: Colors.black,
                     size: 30,
                   ),
-                  //
-                  Text(
-                    "Settings",
-                    style: TextStyle(
-                      color: Colors.black,
-                      fontSize: 20,
-                      fontFamily: 'Oswald-Bold',
-                      fontWeight: FontWeight.bold,
-                    ),
-                  )
                 ],
               ),
             ))
